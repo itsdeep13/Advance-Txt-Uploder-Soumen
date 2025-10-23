@@ -41,7 +41,7 @@ You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including:
 🚀 You are not subscribed to any plan yet!
 
 💵 Monthly Plan: ₹ 1200
-If you want to buy membership of the bot, feel free to contact the Bot Admin Naruto (0).</b>")
+If you want to buy membership of the bot, feel free to contact the Bot Admin Naruto.</b>")
         except (IndexError, ValueError):
             await message.reply_text("**Please provide a valid user ID.**")
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
