@@ -18,30 +18,7 @@ def register_authorisation_handlers(bot):
             else:
                 AUTH_USERS.append(new_user_id)
                 await message.reply_text(f"**User ID `{new_user_id}` added to authorized users.**")
-                await client.send_message(chat_id=new_user_id, text=f"<b>🎉 Welcome to DRM Level 1 Bot! 🎉
-
-You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including:
-
-   • 📚 Appx Zip+Encrypted Url
-   • 🎓 Classplus DRM+ NDRM
-   • 🧑‍🏫 PhysicsWallah DRM
-   • 📚 CareerWill + PDF
-   • 🎓 Khan GS
-   • 🎓 Study Iq DRM
-   • 🚀 APPX + APPX Enc PDF
-   • 🎓 Vimeo Protection
-   • 🎓 Brightcove Protection
-   • 🎓 Visionias Protection
-   • 🎓 Zoom Video
-   • 🎓 Utkarsh Protection(Video + PDF)
-   • 🎓 All Non DRM+AES Encrypted URLs
-   • 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)
-
-
-🚀 You are not subscribed to any plan yet!
-
-💵 Monthly Plan: ₹ 1200
-If you want to buy membership of the bot, feel free to contact the Bot Admin Naruto.</b>")
+                await client.send_message(chat_id=new_user_id, text=f"<b>Great! You are added in Premium Membership!</b>")
         except (IndexError, ValueError):
             await message.reply_text("**Please provide a valid user ID.**")
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
