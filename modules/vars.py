@@ -5,7 +5,7 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "22484497"))
 API_HASH = environ.get("API_HASH", "c38cb053916c47a97590c244663cbaef")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8301299052:AAH0aBTXW89q7ALQSsY4z-Sq5Pd-GscEgqM")
+BOT_TOKEN = environ.get("8355123253:AAGJPTisze4F8NElZe1XCisyEeY7K6DiNFE")
 
 OWNER = int(environ.get("OWNER", "6252997817"))
 CREDIT = environ.get("CREDIT", "ADVANCE UPLOAD BOT BY SOUMEN")
@@ -22,6 +22,7 @@ if int(OWNER) not in AUTH_USERS:
 api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
 
